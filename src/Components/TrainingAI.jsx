@@ -1,19 +1,54 @@
 import React from 'react'
+import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 const TrainingAI = () => {
   return (
     <>
-     <div className='w-full h-[564px] bg-[url("bg2.svg")] bg-cover bg-no-repeat '>
-        <div className='pt-24 leading-tight'>
-            <h2 className='text-[40px] text-white text-center font-semibold '>Train your aiDR on your...</h2>
-            <h2 className='text-[40px] text-btncolor italic text-center'>prefered email st|</h2>
-            <div className='w-[450px] ml-[30%] leading-tight'>
-                <p className='text-[24px] pt-6 text-white/50 text-center'>Youre in control. Train your aiDR on elements of your Marketing strategy.</p>
-            </div>
-            
-        </div>
-        
+     <div className='w-full h-auto bg-[url("bg2.svg")] bg-cover bg-no-repeat p-6 lg:p-24'>
+  <div className='leading-tight'>
+   
+    <div className="mb-6">
+      <h2 className='text-[24px] lg:text-[40px] text-white text-center font-semibold'>
+        Train your aiDR on your...
+      </h2>
+      <h2 className='text-[24px] lg:text-[40px] text-btncolor italic text-center'>
+        prefered email st|
+      </h2>
     </div>
+
+
+    <div className='w-full lg:w-[450px] mx-auto leading-tight'>
+      <p className='text-[16px] lg:text-[24px] pt-6 text-white/50 text-center'>
+        Youre in control. Train your aiDR on elements of your Marketing strategy.
+      </p>
+    </div>
+
+    
+    <div className='flex flex-wrap justify-center py-2 md:py-4 lg:py-6'>
+      <p className='flex items-center mb-4 lg:mb-0 lg:mr-[160px]'>
+        <IoIosCheckmarkCircleOutline className='mt-1 text-btncolor' />
+        <span className=' ml-2  text-[#14BCB2]'>Quick to ramp</span>
+      </p>
+      <p className='flex items-center mb-4 lg:mb-0'>
+        <IoIosCheckmarkCircleOutline className='mt-1 text-btncolor' />
+        <span className='ml-2 text-[#14BCB2]'>Easy to optimize</span>
+      </p>
+    </div>
+
+
+    <div className='flex flex-wrap justify-center'>
+      <p className='flex items-center mb-4 lg:mb-0 lg:mr-[25px]'>
+        <IoIosCheckmarkCircleOutline className='mt-1 text-btncolor' />
+        <span className='ml-2 text-[#14BCB2]'>Quick to scale up</span>
+      </p>
+      <p className='flex items-center'>
+        <IoIosCheckmarkCircleOutline className='mt-1 text-btncolor' />
+        <span className='ml-2 text-[#14BCB2]'>Works with all your existing tools</span>
+      </p>
+    </div>
+  </div>
+</div>
+
     </>
    
   )
