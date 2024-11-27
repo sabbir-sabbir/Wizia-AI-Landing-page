@@ -1,7 +1,5 @@
-import React from 'react'
-import { IoIosArrowRoundForward } from "react-icons/io";
-import { IoIosArrowRoundBack } from "react-icons/io";
-import  { useState } from "react";
+import React, { useState } from 'react';
+import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
 const Slider = () => {
     const slides = [
@@ -47,7 +45,8 @@ const Slider = () => {
       <div
         className="flex transition-transform duration-500"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
+       data-aos="fade-left"
+       data-aos-duration="2000">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -56,7 +55,7 @@ const Slider = () => {
             <img
               src={slide.img}
               alt={`Slide ${index + 1}`}
-              className="w-3 h-3   md:w-[25px] md:h-[25px]  "
+              className="w-3 h-3   md:w-[25px] md:h-[25px]"
             />
             <p className="text-2xl  mb-2 py-10 text-white/50">{slide.title}</p>
             <h3 className="text-lg font-bold text-btncolor mb-2">{slide.text}</h3>

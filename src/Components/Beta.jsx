@@ -11,7 +11,7 @@ const Beta = () => {
          Take your outbound to new levels of performance and efficiency.</p>
          </div>
          <div className='flex items-center justify-center'>
-         <button className="bg-btncolor px-4 py-2 mt-5 rounded-full text-black flex items-center hover:bg-green-500 ">
+         <button className="bg-btncolor px-4 py-2 mt-5 rounded-full text-black flex items-center hover:bg-green-500 hover:scale-125 transition-transform duration-2000 ease-in-out">
               Sign Up for the Beta{" "}
               <span className="mt-1 ml-1 ">
                 <BsArrowUpRightSquare />

@@ -21,16 +21,16 @@ const Handle = () => {
     <>
     <section className='w-full max-w-[1344px] h-auto max-h-[1344px] py-5 sm:py-12  bg-[#07292F]  '>
       <div className='px-40 '>
-        <h2 className='text-white text-[32px] w-[250px] sm:w-[500px]'>Allocate effort where your reps make an inpact.</h2>
+        <h2 className='text-white text-[32px] w-[250px] sm:w-[500px] hover:scale-125 transition-transform duration-2000 ease-in-out'>Allocate effort where your reps make an inpact.</h2>
         <h2 className='italic text-[30px] text-btncolor'>Let us handle the rest.</h2>
         <div className='leading-tight mt-2 w-[250px] sm:w-[500px]'>
             <p className='text-[#FFFFFF]/50'>Keep your reps “in the air” -- out in the field and on the phone where they can build relationships.</p>
         </div>
-        <div className='flex flex-col md:flex-row items-center gap-x-1 md:gap-x-10 mt-5 '>
+        <div className='flex flex-col md:flex-row items-center gap-x-1 md:gap-x-10 mt-5 ' data-aos="zoom-in-down" data-aos-duration="2000"> 
           {three.map((item, i)=> (
           
           <div>
-            <h1 className='font-bold text-btncolor text-sm sm:text-lg md:text-5xl lg:text-7xl py-3'>{item.num}</h1>
+            <h1 className='font-bold text-btncolor text-sm sm:text-lg md:text-5xl lg:text-7xl py-3 hover:scale-125 transition-transform duration-2000 ease-in-out'>{item.num}</h1>
             <p className='w-[174px] text-[#E9EEF1]'>{item.desc}</p>
           </div>
 
