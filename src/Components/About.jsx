@@ -1,6 +1,8 @@
 import React from 'react'
 import { BsArrowUpRightSquare } from "react-icons/bs";
 import Partners from './Partners';
+import Services from './Services';
+import TrainingAI from './TrainingAI';
 
 const About = () => {
   return (
@@ -20,6 +22,8 @@ const About = () => {
        </div>
     </div>
     <Partners/>
+    <Services/>
+   <TrainingAI/>
     </>
     
     
