@@ -6,6 +6,7 @@ import TrainingAI from "./TrainingAI";
 import Slider from "./Slider";
 import Handle from "./Handle";
 import Beta from "./Beta";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -50,6 +51,7 @@ const About = () => {
       <Slider />
       <Handle />
       <Beta/>
+      <Footer/>
     </>
   );
 };
