@@ -9,7 +9,16 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#002228",
+        btncolor: "#0FF1F6",
+        ground: "#ffffff",
+      },
+      fontfamily: { 
+         mont:['Montserrat', 'sans-serif'],
+       },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
