@@ -5,6 +5,7 @@ import Services from "./Services";
 import TrainingAI from "./TrainingAI";
 import Slider from "./Slider";
 import Handle from "./Handle";
+import Beta from "./Beta";
 
 const About = () => {
   return (
@@ -42,11 +43,13 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* Otherts reusable components you can find Components main folder */}
       <Partners />
       <Services />
       <TrainingAI />
       <Slider />
       <Handle />
+      <Beta/>
     </>
   );
 };
