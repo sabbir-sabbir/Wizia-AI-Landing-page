@@ -11,7 +11,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <>
-      <div className='w-full h-auto py-4 bg-[url("particle.svg")] bg-cover bg-no-repeat bg-right '>
+      <div className='w-full h-auto py-4 bg-[url("particle.svg")] bg-cover bg-no-repeat bg-right' >
         <div className="py-10 ml-12">
           <p className="text-btncolor text-lg md:text-xl lg:text-3xl">
             AI SDRs (aiDRs)
