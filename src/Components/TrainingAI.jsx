@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 const TrainingAI = () => {
   return (
     <>
-     <div className='w-full h-auto bg-[url("bg2.svg")] bg-cover bg-no-repeat p-6 lg:p-24'>
+     <div className='w-full h-auto bg-[#002228] bg-cover bg-no-repeat p-6 lg:p-24'>
   <div className='leading-tight'>
    
     <div className="mb-6 ">
