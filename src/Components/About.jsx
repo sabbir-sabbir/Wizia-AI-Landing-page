@@ -3,6 +3,7 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 import Partners from './Partners';
 import Services from './Services';
 import TrainingAI from './TrainingAI';
+import Slider from './Slider';
 
 const About = () => {
   return (
@@ -24,6 +25,7 @@ const About = () => {
     <Partners/>
     <Services/>
    <TrainingAI/>
+   <Slider/>
     </>
     
     
