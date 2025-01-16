@@ -42,7 +42,7 @@ const NavbarComponents = () => {
           <button className="bg-btncolor hover:bg-sky-400 text-[#002228] px-4 py-2 rounded-full">
             Contact Us
           </button>
-          <button className=" hover:bg-red-700 text-white px-4 py-2 rounded-full  border-1">
+          <button className=" hover:bg-zinc-500 text-white px-4 py-2 rounded-full  border-2">
             Book a Demo
           </button>
         </div>
@@ -80,7 +80,7 @@ const NavbarComponents = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden bg-gray-800 text-white">
+        <div className="lg:hidden container mx-auto px-2 py-2 flex flex-col justify-center items-center ">
           <div className="flex flex-col space-y-4 p-4">
             <NavLink to="/" className="hover:text-gray-400">
               About Us
