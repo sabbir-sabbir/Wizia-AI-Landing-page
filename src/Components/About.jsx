@@ -11,7 +11,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <>
-      <div className="w-full h-auto py-4   bg-[url('bgdgn.png')] "  >
+      <div className="w-full h-auto py-4   bg-[#07292F] "  >
         <div className="py-10 ml-12" data-aos="fade-up" data-aos-duration="2000">
           <p className="text-btncolor text-lg md:text-xl lg:text-3xl">
             AI SDRs (aiDRs)
